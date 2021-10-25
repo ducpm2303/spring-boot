@@ -1,0 +1,14 @@
+package main;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Boy {
+    @Autowired
+    Outfit outfit;
+
+    public Boy(Outfit outfit) {
+        this.outfit = outfit;
+    }
+}
