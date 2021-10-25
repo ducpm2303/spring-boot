@@ -12,4 +12,4 @@ Trước khi run chạy lệnh
 mvn clean compile
 Click button Run Or Debug project là chạy được.
 
-![](docs/images/one-to-many.png)
+![](one-to-many.png)
